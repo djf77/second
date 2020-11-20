@@ -1,0 +1,12 @@
+create database teamwork default character set utf8mb4 collate utf8mb4_unicode_ci;
+
+use teamwork;
+
+create table `users` (
+    `id` int not null auto_increment,
+    `username` varchar(100) not null,
+    `student_nums` varchar(255) not null,
+    primary key(`id`)
+) engine = InnoDB default charset=utf8mb4 collate=utf8mb4_unicode_ci;
+
+

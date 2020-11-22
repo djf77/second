@@ -1,6 +1,5 @@
 # app.py
 from flask import Flask, jsonify
-import datebase
 from utils import HttpError
 from controller.add import add_bp
 from controller.user import user_bp
